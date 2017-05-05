@@ -6,6 +6,6 @@ public class Property {
     private UUID id;
     public Property(Object obj, UUID agentId)
     {
-        
+
     }
 }

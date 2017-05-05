@@ -4,8 +4,13 @@ import java.util.UUID;
 
 public class Ad {
     private UUID id;
-    public Ad(Property property, UUID id)
+    private UUID agentId;
+    public Ad(Property property, UUID agentId)
     {
+        this.agentId = agentId;
+    }
 
+    public Contact contactAgent(UUID clientId) {
+        return new Contact(id, clientId);
     }
 }
