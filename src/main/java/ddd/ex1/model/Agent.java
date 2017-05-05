@@ -11,4 +11,9 @@ public class Agent {
     public Ad publishProperty(Property property){
         return new Ad(property, id);
     }
+
+    public void unpublishAd(Ad ad)
+    {
+        ad.unpublish(id);
+    }
 }

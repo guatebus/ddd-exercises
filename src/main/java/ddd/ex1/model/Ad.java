@@ -13,4 +13,14 @@ public class Ad {
     public Contact contactAgent(UUID clientId) {
         return new Contact(id, clientId);
     }
+
+    public void unpublish(UUID id) {
+        if (id == agentId){
+            internalUnpublish();
+        }
+    }
+
+    private void internalUnpublish() {
+
+    }
 }
