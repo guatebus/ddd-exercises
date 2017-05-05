@@ -6,6 +6,6 @@ public class Ad {
     private UUID id;
     public Ad(Property property, UUID id)
     {
-        
+
     }
 }
