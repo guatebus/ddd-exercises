@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b942b061-6c3c-45cd-adc3-2f89d5efcd78" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ddd/ex1/model/Ad.java" afterPath="$PROJECT_DIR$/src/main/java/ddd/ex1/model/Ad.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ddd/ex1/model/Agent.java" afterPath="$PROJECT_DIR$/src/main/java/ddd/ex1/model/Agent.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -63,7 +62,7 @@
       <file leaf-file-name="Ad.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/ddd/ex1/model/Ad.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
+            <state relative-caret-position="225">
               <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding>
                 <element signature="e#164#165#0" expanded="true" />
@@ -971,12 +970,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1493975119280</updated>
-      <workItem from="1493975120913" duration="2469000" />
+      <workItem from="1493975120913" duration="2521000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2469000" />
+    <option name="totallyTimeSpent" value="2521000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="26" y="110" width="1143" height="614" extended-state="0" />
@@ -1093,7 +1092,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ddd/ex1/model/Ad.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
+        <state relative-caret-position="225">
           <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding>
             <element signature="e#164#165#0" expanded="true" />
