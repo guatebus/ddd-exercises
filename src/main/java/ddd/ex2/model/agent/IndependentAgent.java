@@ -19,7 +19,7 @@ public class IndependentAgent implements IIndependentAgent {
         if (emailValidator.isValid(this)) {
             return unpublishedAd.publish();
         }
-        throw new RuntimeException();
+        throw new RuntimeException("Cannot publish with invalid email");
     }
 
     @Override
