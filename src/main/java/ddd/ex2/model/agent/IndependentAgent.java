@@ -1,5 +1,6 @@
 package ddd.ex2.model.agent;
 
+import ddd.ex2.model.ad.IPublishedAd;
 import ddd.ex2.model.ad.PublishedAd;
 import ddd.ex2.model.ad.UnpublishedAd;
 import ddd.ex2.model.email.Email;
@@ -13,9 +14,9 @@ public class IndependentAgent implements IIndependentAgent {
     }
 
     @Override
-    public PublishedAd publish(UnpublishedAd unpublishedAd) {
+    public IPublishedAd publish(UnpublishedAd unpublishedAd) {
         if (email.isValid) {
-            return unpublishedAd.publish();
+            return new PublishedAd(unpublishedAd);
         }
         throw new RuntimeException("Cannot publish with invalid email");
     }

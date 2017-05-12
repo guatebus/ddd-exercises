@@ -1,11 +1,11 @@
 package ddd.ex2.model.ad;
 
-public class BumpedPublishedAd implements PublishedAd {
-    private final PublishedAd publishedAd;
+public class BumpedPublishedAd implements IPublishedAd {
+    private final UnpublishedAd unpublishedAd;
 
-    public BumpedPublishedAd(PublishedAd publishedAd)
+    public BumpedPublishedAd(UnpublishedAd unpublishedAd)
     {
-        this.publishedAd = publishedAd;
+        this.unpublishedAd = unpublishedAd;
     }
 
     @Override

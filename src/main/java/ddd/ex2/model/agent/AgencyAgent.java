@@ -1,7 +1,7 @@
 package ddd.ex2.model.agent;
 
 import ddd.ex2.model.ad.BumpedPublishedAd;
-import ddd.ex2.model.ad.IBumpedPublishedAd;
+import ddd.ex2.model.ad.IPublishedAd;
 import ddd.ex2.model.ad.PublishedAd;
 import ddd.ex2.model.ad.UnpublishedAd;
 
@@ -13,8 +13,7 @@ public class AgencyAgent implements IAgencyAgent{
     }
 
     @Override
-    public PublishedAd publish(UnpublishedAd unpublishedAd) {
-        PublishedAd published = unpublishedAd.publish();
-        return offer ? new BumpedPublishedAd(published) : published;
+    public IPublishedAd publish(UnpublishedAd unpublishedAd) {
+        return offer ? new BumpedPublishedAd(unpublishedAd) : new PublishedAd(unpublishedAd);
     }
 }
