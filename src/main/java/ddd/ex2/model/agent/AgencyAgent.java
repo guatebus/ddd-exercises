@@ -1,11 +1,8 @@
 package ddd.ex2.model.agent;
 
-import ddd.ex2.model.ad.BumpedPublishedAd;
-import ddd.ex2.model.ad.IPublishedAd;
-import ddd.ex2.model.ad.PublishedAd;
-import ddd.ex2.model.ad.UnpublishedAd;
+import ddd.ex2.model.ad.*;
 
-public class AgencyAgent implements IAgencyAgent{
+public class AgencyAgent implements IAgencyAgent, AdPublisher {
     private final boolean offer;
 
     public AgencyAgent(boolean offer){

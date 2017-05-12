@@ -1,11 +1,12 @@
 package ddd.ex2.model.agent;
 
+import ddd.ex2.model.ad.AdPublisher;
 import ddd.ex2.model.ad.IPublishedAd;
 import ddd.ex2.model.ad.PublishedAd;
 import ddd.ex2.model.ad.UnpublishedAd;
 import ddd.ex2.model.email.Email;
 
-public class IndependentAgent implements IIndependentAgent {
+public class IndependentAgent implements IIndependentAgent, AdPublisher{
 
     private final Email email;
 
