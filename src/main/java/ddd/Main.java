@@ -1,4 +1,4 @@
-package ddd.ex1;
+package ddd;
 
 public class Main {
 
